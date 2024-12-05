@@ -1,9 +1,11 @@
 package labyrinth.model;
 
-public class PlayerScore {
+import java.util.Timer;
 
-    private int score;
-    private String playerName;
+public class PlayerScore extends Player {
+
+
+
 
 
 
