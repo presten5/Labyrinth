@@ -5,6 +5,7 @@ public class Cell {
 
     public Cell(CellType type) {
         this.type = type;
+
     }
 
     public CellType getType() {
