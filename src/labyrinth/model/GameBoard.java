@@ -49,6 +49,8 @@ public class GameBoard {
         return row >= 0 && row < labyrinth.length && col >= 0 && col < labyrinth[row].length;
     }
 
+
+
    //het labyrinth maken dat w, p, spatie een array wordt
     public Cell[][] getLabyrinth() {
         return labyrinth;
