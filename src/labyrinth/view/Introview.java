@@ -2,8 +2,12 @@ package labyrinth.view;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
+
+import java.awt.*;
 
 public class Introview extends BorderPane {
 
@@ -44,6 +48,7 @@ public class Introview extends BorderPane {
         centerBox.getChildren().addAll(buttonPlay, buttonRules, buttonExit);
         this.setCenter(centerBox);
         BorderPane.setAlignment(centerBox, Pos.CENTER);
+
 
 
 
