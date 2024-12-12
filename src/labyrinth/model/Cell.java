@@ -8,6 +8,7 @@ public class Cell {
 
     }
 
+
     public CellType getType() {
         return type;
     }
